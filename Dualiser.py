@@ -66,6 +66,7 @@ def showresults(s, c, points, found):
     plt.show()
 
 def main():
+    """
     seed = input("Please enter a seed for the random number generator or leave empty for random seed: ")
     if (seed != ""):
         if (seed.isnumeric()):
@@ -74,6 +75,7 @@ def main():
             seedcalc = [ord(x) for x in seed]
             seedcalc = np.prod(seedcalc)
             np.random.seed(seedcalc)
+    """
     iterations = 0
     while(True):
         userInput = input("Please enter the number of points to generate: ")
